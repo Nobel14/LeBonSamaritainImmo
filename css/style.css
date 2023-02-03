@@ -629,7 +629,7 @@ footer hr{
     
 }
 
-.newsletter input:focus{
+.newsletter input:focus, .newsletter input:not(:placeholder-shown) {
     transition-timing-function: ease;
     outline-style: none;
     border-bottom: 4px #58bdf0 solid;
@@ -646,7 +646,7 @@ footer hr{
     transition: all 0.6s  ;
   }
 
-.newsletter label input:focus + .label-text {
+.newsletter label input:focus + .label-text, .newsletter label input:not(:placeholder-shown) + .label-text{
     color: #58bdf0;
     font-size: 15px;
     margin-top: 10px;
@@ -932,20 +932,24 @@ footer hr{
   }
 
   
-.message-container input:focus, .message-container textarea:focus{
+.message-container input:focus,.message-container input:not(:placeholder-shown), .message-container textarea:focus,
+.message-container textarea:not(:placeholder-shown) {
     transition-timing-function: ease;
     outline-style: none;
     border-bottom: 4px var(--orange-logo) solid;
 }
 
-.message-container label input:focus + .label-text,.message-container label textarea:focus + .label-text {
+.message-container label input:focus + .label-text,.message-container label input:not(:placeholder-shown) + .label-text{
     color: var(--orange-logo);
     font-size: 15px;
     margin-top: 10px;
     transform: translate(-0px,-85px) ; width: 0;
   }
 
-.message-container label textarea:focus + .label-text {
+.message-container label textarea:focus + .label-text,.message-container label textarea:not(:placeholder-shown) + .label-text {
+    color: var(--orange-logo);
+    font-size: 15px;
+    margin-top: 10px;
     transform: translate(-0px,-70px) ; width: 0;
   }
 
