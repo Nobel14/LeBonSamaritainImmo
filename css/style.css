@@ -1477,17 +1477,20 @@ section {
     
     .slide-text1 {
         font-size: 2.5em;
-        top: 25%;
+        /* top: 25%; */
+        top: 195px;
     }
     
     .slide-text2 {
         font-size: 4em;
-        top: 45%;
+        /* top: 45%; */
+        top: 365px;
     }
     
     .slide-text3 {
         font-size: 5em;
-        top: 83%;
+        /* top: 83%; */
+        top: 705px;
     }
 
     .presentation img {
@@ -1536,22 +1539,31 @@ section {
     :root{
         --orange-logo: #4014e1;
     }
+    .mySlides {
+        height: 40em;
+    }
 
+    .mySlides img {
+        height: 40em;
+    }
       
   .slide-text1 {
     font-size: 2.3em;
     /* font-size: 36px; */
-    top: 25%;
+    /* top: 25%; */
+    top: 205px;
   }
   
   .slide-text2 {
     font-size: 3.3em;
-    top: 51%;
+    /* top: 51%; */
+    top: 415px;
   }
   
   .slide-text3 {
     font-size: 4.1em;
-    top: 83%;
+    /* top: 83%; */
+    top: 675px;
   }
 
   .tag i{
@@ -1609,22 +1621,31 @@ section {
     .humberger-menu-wrapper{
         display: block;
     }
+    .mySlides {
+        height: 45em;
+    }
 
+    .mySlides img {
+        height: 45em;
+    }
     
 
     .slide-text1 {
         font-size: 1.9em;
-        top: 10%;
+        /* top: 10%; */
+        top: 75px;
       }
       
       .slide-text2 {
         font-size: 2.8em;
-        top: 41%;
+        /* top: 41%; */
+        top: 325px;
       }
       
       .slide-text3 {
         font-size: 3.8em;
-        top: 81%;
+        /* top: 81%; */
+        top: 650px;
       }
 
       .presentation{
@@ -1765,20 +1786,31 @@ section {
         --orange-logo: #14e136;
       align-content:stretch;
     }
+
+    .mySlides {
+        height: 40em;
+    }
+
+    .mySlides img {
+        height: 40em;
+    }
     
     .slide-text1 {
         font-size: 1.4em;
-        top: 10%;
+        /* top: 10%; */
+        top: 80px;
       }
       
     .slide-text2 {
         font-size: 2.5em;
-        top: 33%;
+        /* top: 33%; */
+        top: 260px;
       }
 
     .slide-text3 {
         font-size: 2.3em;
-        top: 87%;
+        /* top: 87%; */
+        top: 600px;
       }
 }
 
@@ -1787,4 +1819,38 @@ section {
         --orange-logo: #037059;
       align-content:stretch;
     }
+
+    .slideshow-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        background-color: #717171;
+      }
+}
+
+@media  screen and (max-width: 359px) {
+    :root{
+        --orange-logo: #037059;
+      align-content:stretch;
+    }
+
+        
+    .slide-text1 {
+        font-size: 1.2em;
+        /* top: 10%; */
+        top: 80px;
+      }
+      
+    .slide-text2 {
+        font-size: 2.1em;
+        /* top: 33%; */
+        top: 260px;
+      }
+
+    .slide-text3 {
+        font-size: 2em;
+        /* top: 87%; */
+        top: 600px;
+      }
 }
