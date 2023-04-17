@@ -1814,20 +1814,6 @@ section {
       }
 }
 
-@media  screen and (max-width: 406px) {
-    :root{
-        --orange-logo: #037059;
-      align-content:stretch;
-    }
-
-    .slideshow-container {
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        margin: auto;
-        background-color: #717171;
-      }
-}
 
 @media  screen and (max-width: 359px) {
     :root{
@@ -1851,6 +1837,6 @@ section {
     .slide-text3 {
         font-size: 2em;
         /* top: 87%; */
-        top: 600px;
+        top: 610px;
       }
 }
