@@ -1815,7 +1815,8 @@ section {
 }
 
 
-@media  screen and (max-width: 359px) {
+/* @media  screen and (max-width: 359px) { */
+@media  screen and (max-width: 390px) {
     :root{
         --orange-logo: #037059;
       align-content:stretch;
@@ -1837,6 +1838,6 @@ section {
     .slide-text3 {
         font-size: 2em;
         /* top: 87%; */
-        top: 610px;
+        top: 600px;
       }
 }
